@@ -5,6 +5,17 @@
 
 Este repositorio es el **frontend** de *Manager Library*, en **React**. **Empieza vacío a propósito**: se construye en el fork de cada aprendiz.
 
+## Desarrollo local
+
+```bash
+npm install
+VITE_API_URL=http://localhost:8000/api/v1 npm run dev
+```
+
+La aplicación consume únicamente el contrato de `spec-php/api-contract.md`: login, catálogo,
+socios, préstamos, vencidos y reporte. El token se mantiene en el almacenamiento local del
+navegador y no se incluyen credenciales en el repositorio.
+
 ## Instrucciones
 
 Cada aprendiz debe **crear el fork** de los seis repositorios del proyecto y **resolver el proyecto
